@@ -2,8 +2,8 @@
 
 ### Note :
 ```text
-Jangan rubah file css dan js dalam folder public. Jika ingin custom rubah pada file scss dan js pada folder src
-
+Jangan rubah file css dan js dalam folder public. 
+Jika ingin custom rubah pada file scss dan js pada folder src.
 ```
 
 ## How To Run
