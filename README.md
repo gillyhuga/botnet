@@ -30,4 +30,5 @@ npm install -g live-server
 5. Ketik command, untuk menjalankan live server
 ```console
 live-server public
+live-server public --port=8090
 ``` 
