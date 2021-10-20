@@ -1,35 +1,34 @@
 @import "~bootstrap/scss/bootstrap";
 
-$primary: #0062FF;
-$secondary: #F7FAFF;
-$main: #FFFFFF;
-$font-main:#25546F;
-$font-subtitle:#92A9B7;
+$primary: #0062ff;
+$secondary: #f7faff;
+$main: #ffffff;
+$font-main: #25546f;
+$font-subtitle: #92a9b7;
 
 @font-face {
-    font-family: Nunito;
-    src: url("../fonts/Nunito-Regular.ttf");
+  font-family: Nunito;
+  src: url("../fonts/Nunito-Regular.ttf");
 }
 
-
 * {
-    font-family: Nunito;
+  font-family: Nunito;
 }
 
 body {
-    background-color: $main;
+  background-color: $font-subtitle;
 }
 
-nav{
-    height: 75px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: 800;
-    color : $font-main;
-    background-color: $main;
+nav {
+  height: 75px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 800;
+  color: $font-main;
+  background-color: $main;
 }
 
-.nav-link{
-    padding-left: 10px;
-    padding-right: 10px;
+.nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
 }
