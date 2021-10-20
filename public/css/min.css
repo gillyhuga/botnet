@@ -10873,6 +10873,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: Nunito;
+  src: url(/fonts/Nunito-Regular.ttf?e4eb7682710458841b1080acceacd501);
+}
+* {
+  font-family: Nunito;
+}
+
 body {
-  background-color: blue;
+  background-color: #FFFFFF;
+}
+
+nav {
+  height: 75px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 800;
+  color: #25546F;
+  background-color: #FFFFFF;
+}
+
+.nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
 }
