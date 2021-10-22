@@ -10874,15 +10874,23 @@ textarea.form-control-lg {
   }
 }
 @font-face {
-  font-family: Nunito;
-  src: url(/fonts/Nunito-Regular.ttf?e4eb7682710458841b1080acceacd501);
+  font-family: Poppins;
+  src: url(/fonts/Poppins-Regular.ttf?8081832fc5cfbf634aa664a9eff0350e);
 }
 * {
-  font-family: Nunito;
+  font-family: Poppins;
 }
 
 body {
   background-color: #ffffff;
+}
+
+p {
+  color: #92a9b7;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  color: #25546f;
 }
 
 nav {
