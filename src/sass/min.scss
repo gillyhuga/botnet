@@ -1,4 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
 
 $primary: #0062ff;
 $secondary: #f7faff;
@@ -42,13 +46,40 @@ nav {
 }
 
 
+.floating-share {
+  position: fixed;
+  width: 60px;
+  margin-top: 150px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4)
+}
 
+.floating-share ul {
+  margin-top: 0;
+  margin-bottom: 0rem
+}
+
+.floating-share li {
+  height: 45px;
+  position: relative
+}
+
+// .floating-share li a {
+//   display: block;
+//   height: 100%;
+//   width: 100%;
+//   line-height: 45px;
+//   padding-left: 25%;
+//   border-bottom: 1px solid rgba(0, 0, 0, .4);
+//   transition: all .3s linear;
+//   text-decoration: none !important
+// }
 
 
 
 //Kegiatan Page
 
-.bg-decoration {
+.bg-decoration-circle-left {
   position: absolute;
   top: 20px;
   left: 0;
@@ -59,22 +90,12 @@ nav {
   overflow: hidden;
 }
 
-.bg-decoration__svg {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  transform: translateX(-50%);
-  width: 134%;
-  min-width: 1280px;
-  max-width: 1920px;
-  height: auto;
-  z-index: -99;
-}
 
-.bg-decoration-2 {
+.bg-decoration-circle-right {
   position: absolute;
   top: 40%;
   left: 0;
+  transform: rotate(180deg);
   pointer-events: none;
   width: 100%;
   height: 100%;
