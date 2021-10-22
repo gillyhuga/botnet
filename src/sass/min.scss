@@ -7,16 +7,24 @@ $font-main: #25546f;
 $font-subtitle: #92a9b7;
 
 @font-face {
-  font-family: Nunito;
-  src: url("../fonts/Nunito-Regular.ttf");
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
 }
 
 * {
-  font-family: Nunito;
+  font-family: Poppins;
 }
 
 body {
   background-color: $main;
+}
+
+p {
+  color: $font-subtitle; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: $font-main;
 }
 
 nav {
