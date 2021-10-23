@@ -10889,7 +10889,17 @@ p {
   color: #92a9b7;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   color: #25546f;
 }
 
@@ -10905,6 +10915,362 @@ nav {
 .nav-link {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.ling1 {
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+#about {
+  position: relative;
+  width: auto;
+  height: 6316px;
+}
+
+#banner {
+  width: auto;
+  height: 978px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
+}
+
+.title-inti {
+  position: absolute;
+  width: 224px;
+  height: 144px;
+  left: 608px;
+  top: 319px;
+  /* Title (h1) */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.cc {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-inti {
+  width: 100%;
+  height: 6%;
+  left: 0%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  position: absolute;
+  top: 235px;
+}
+
+#sb {
+  width: auto;
+  height: 64px;
+  left: 0%;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.sel {
+  border-radius: 10px;
+}
+
+.bunder1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
+
+#aboutme {
+  position: absolute;
+  width: 100%;
+  height: 978px;
+  left: 0px;
+  top: 978px;
+  background-color: #92a9b7;
+}
+
+.frame-aboutme {
+  height: 100%;
+  align-items: center;
+}
+
+.tes {
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+.frame-ttkm {
+  position: absolute;
+  width: auto;
+  height: 479px;
+  margin-left: 114px;
+  margin-right: 114px;
+}
+
+.aboutme-gambar {
+  margin: 0 76px 0rem;
+}
+
+.teks-aboutme {
+  padding: 1rem 5.25rem;
+}
+
+#fungsi {
+  position: absolute;
+  width: 100%;
+  height: 978px;
+  left: 0px;
+  top: 1781px;
+}
+
+.fungsi-tujuan {
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 114px;
+}
+
+.down {
+  position: absolute;
+  top: 220px;
+  width: 100%;
+}
+
+.frame-fungsi {
+  height: 100%;
+  align-items: center;
+}
+
+.teks-fungsi {
+  padding: 3rem 13.25rem;
+}
+
+.fungsi-gambar {
+  padding: 0 60px 0rem;
+}
+
+#teams {
+  position: absolute;
+  width: 100%;
+  height: 978px;
+  left: 0px;
+  top: 2934px;
+}
+
+.judul-tim {
+  width: 100%;
+  height: 20%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fm-tim {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fitur-click {
+  width: 637px;
+  height: 70px;
+  background-color: #f7faff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.click-- {
+  width: 100%;
+  padding: 6px;
+  border-radius: 20px;
+}
+
+.brr {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.kol {
+  display: flex;
+  justify-content: center;
+  width: 23%;
+}
+
+.bd {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.xx {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  width: 409px;
+  height: 435px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sosmed {
+  list-style: none;
+  width: 100%;
+}
+
+.social-media-icon {
+  padding: 2px 3px 1px 3px;
+  background: none;
+  color: #85b6ff;
+  margin: 5px;
+  border-radius: 4px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a.social-media-icon:hover {
+  background: none !important;
+  color: none !important;
+}
+
+.usr {
+  width: 225px;
+}
+
+#gabung {
+  position: absolute;
+  width: 100%;
+  height: 978px;
+  top: 3912px;
+}
+
+.cont {
+  position: absolute;
+  width: 100%;
+  height: 565.25px;
+  top: 200px;
+}
+
+.tengah-gabung {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.cont-gabung {
+  width: 50%;
+  height: 70%;
+  position: relative;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+.gabung {
+  position: absolute;
+  right: 7%;
+}
+
+.btn-gabung {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#maps {
+  position: absolute;
+  width: 100%;
+  height: 978px;
+  top: 4890px;
+}
+
+#poss {
+  position: absolute;
+  left: 200px;
+  top: 30px;
+}
+
+.maps-kiri {
+  width: 100%;
+  height: 100%;
+}
+
+.bagan-maps {
+  position: absolute;
+  width: 375px;
+  height: 558px;
+  left: 230px;
+  border-radius: 15px;
+}
+
+.copy-maps {
+  position: absolute;
+  width: 600px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 4px solid #92a9b7;
+  align-items: center;
+  top: 374px;
+}
+
+.tengah-map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dlm-detail {
+  top: -11px;
+  position: absolute;
+}
+
+#cari {
+  position: absolute;
+  width: 185px;
+  height: 45px;
+  top: 500px;
+  border-radius: 40px;
 }
 
 .bg-decoration {
