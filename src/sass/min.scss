@@ -8,6 +8,7 @@ $secondary: #f7faff;
 $main: #ffffff;
 $font-main: #25546f;
 $font-subtitle: #92a9b7;
+$font-sosmed: #85b6ff;
 
 @font-face {
   font-family: Poppins;
@@ -51,58 +52,35 @@ nav {
 
 // --------------------------- About Page
 
+.bg-about-circle-left {
+  position: absolute;
+  width: 384.57px;
+  height: 384.57px;
+  top: 164px;
+}
+
+.bg-about-circle-right {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 0%;
+  top: 36px;
+}
+
+.bg-titik-left {
+  position: absolute;
+  top: 84.87%;
+  bottom: 3.37%;
+
+  opacity: 0.3;
+}
+
 #about {
   position: relative;
-  width: auto;
-  height: 6316px;
-}
-
-#banner {
-  width: auto;
+  width: 100%;
   height: 978px;
-  left: 0px;
   top: 0px;
-  background-color: $main;
-}
-
-.title-inti {
-  position: absolute;
-  width: 224px;
-  height: 144px;
-  left: 608px;
-  top: 319px;
-
-  /* Title (h1) */
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 72px;
-  text-align: center;
-  letter-spacing: -0.02em;
-}
-
-.cc {
-  width: 100%;
-  height: 20%;
-  // background-color: #92a9b7;
-  display: flex;
-  justify-content: center;
-}
-
-.title-inti {
-  width: 100%;
-  height: 6%;
-  left: 0%;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 36px;
-  text-align: center;
-  // background: antiquewhite;
-  position: absolute;
-  top: 235px;
+  // background-color: #52bdff;
 }
 
 #sb {
@@ -122,85 +100,29 @@ nav {
   align-content: center;
 }
 
-.sel {
-  border-radius: 10px;
-}
-
-.bunder1 {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  z-index: -99;
-  overflow: hidden;
-}
-
 #aboutme {
   position: absolute;
   width: 100%;
   height: 978px;
-  left: 0px;
   top: 978px;
-  background-color: #92a9b7;
+  // background-color: #e9ec3c;
 }
 
-.frame-aboutme {
-  height: 100%;
-  align-items: center;
+.big-title {
+  position: relative;
+  top: 235px;
 }
 
-.tes {
-  width: 100%;
-  height: 100%;
-  z-index: -99;
-}
-
-.frame-ttkm {
-  position: absolute;
-  width: auto;
-  height: 479px;
-  margin-left: 114px;
-  margin-right: 114px;
-}
-
-.x {
-  // background-color: aquamarine;
-}
-
-.y {
-  // background-color: #8d8c4a;
-}
-
-.aboutme-gambar {
-  margin: 0 76px 0rem;
-}
-
-.teks-aboutme {
-  padding: 1rem 5.25rem;
-}
 // -----------
 
 #fungsi {
   position: absolute;
   width: 100%;
   height: 978px;
-  left: 0px;
-  top: 1781px;
-  // background-color: #25546f;
+  top: 1956px;
+  // background-color: $font-sosmed;
 }
 
-.fungsi-tujuan {
-  width: 100%;
-  height: 100%;
-  margin-left: 0px;
-  margin-right: 114px;
-}
-
-.i {
-  // background-color: #c6d38a;
-}
 .floating-share {
   position: fixed;
   display: block;
@@ -221,51 +143,12 @@ nav {
   position: relative;
 }
 
-.j {
-  // background-color: #b7f1a8;
-}
-
-.down {
-  position: absolute;
-  top: 220px;
-  width: 100%;
-}
-
-.frame-fungsi {
-  height: 100%;
-  align-items: center;
-}
-
-.teks-fungsi {
-  padding: 3rem 13.25rem;
-}
-
-.fungsi-gambar {
-  padding: 0 60px 0rem;
-}
-
 #teams {
   position: absolute;
   width: 100%;
   height: 978px;
-  left: 0px;
   top: 2934px;
   // background-color: #25546f;
-}
-
-.judul-tim {
-  width: 100%;
-  height: 20%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fm-tim {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .fitur-click {
@@ -278,62 +161,15 @@ nav {
   border-radius: 20px;
 }
 
-.click-- {
-  width: 100%;
-  padding: 6px;
-  border-radius: 20px;
-}
-
-.brr {
+.fitur {
   border-radius: 20px;
   background-color: $main;
-}
-
-.kol {
-  display: flex;
-  justify-content: center;
-  width: 23%;
-}
-
-.bd {
-  // margin: 0 -5px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.xx {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  // background-color: #f1f1f1;
-  width: 409px;
-  height: 435px;
-
-  background: $main;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-
-  display: flex;
-  justify-content: center;
-}
-
-.sosmed {
-  list-style: none;
-  width: 100%;
 }
 
 .social-media-icon {
   padding: 2px 3px 1px 3px;
   background: none;
-  color: #85b6ff;
+  color: $font-subtitle;
   margin: 5px;
   border-radius: 4px;
 
@@ -341,61 +177,15 @@ nav {
 
   text-decoration: none;
 }
-a.social-media-icon:hover {
-  background: none !important;
-  color: none !important;
-}
 
-.usr {
-  width: 225px;
-}
-// ------
 #gabung {
   position: absolute;
   width: 100%;
-  height: 804px;
+  height: 978px;
   top: 3912px;
 
   // background-color: #85b6ff;
 }
-
-.cont {
-  position: absolute;
-  width: 100%;
-  // height: 500px;
-  // left: 50px;
-  top: 200px;
-  // background-color: #ebacac;
-}
-
-.tengah-gabung {
-  width: 100%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  // background-color: #737f92;
-}
-
-.cont-gabung {
-  width: 50%;
-  height: 70%;
-  // background-color: #ffffff;
-
-  position: relative;
-  margin-top: 120px;
-  margin-left: 200px;
-}
-
-.gabung {
-  position: absolute;
-  // left: 53.47%;
-  right: 7%;
-}
-
-// .btn-gabung {
-//   border-radius: 10px;
-//   margin-top: 20px;
-// }
 
 #maps {
   position: absolute;
