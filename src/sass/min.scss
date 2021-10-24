@@ -54,14 +54,14 @@ nav {
 
 .bg-about-circle-left {
   position: absolute;
-  width: 384.57px;
+  width: auto;
   height: 384.57px;
   top: 164px;
 }
 
 .bg-about-circle-right {
   position: absolute;
-  width: 300px;
+  width: auto;
   height: 300px;
   right: 0%;
   top: 36px;
@@ -81,23 +81,6 @@ nav {
   height: 978px;
   top: 0px;
   // background-color: #52bdff;
-}
-
-#sb {
-  width: auto;
-  height: 64px;
-  left: 0%;
-  font-family: Poppins;
-  font-style: normal;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 #aboutme {
@@ -152,8 +135,8 @@ nav {
 }
 
 .fitur-click {
-  width: 637px;
-  height: 70px;
+  width: 83%;
+  height: 57px;
   background-color: $secondary;
   display: flex;
   justify-content: center;
@@ -194,6 +177,51 @@ nav {
   // left: 0px;
   top: 4890px;
   // background-color: #c1daff;
+}
+
+@media screen and (max-width: 768px) {
+  #aboutme {
+    // background-color: #85b6ff;
+    height: 800px;
+  }
+  .art-aboutme {
+    width: 354px;
+  }
+
+  #fungsi {
+    // background-color: yellow;
+    position: relative;
+    top: 1532px;
+  }
+  .fungsi {
+    width: 354px;
+  }
+
+  #gabung {
+    width: 100%;
+    position: relative;
+    top: 3237px;
+    height: 735px;
+  }
+  .gabung {
+    width: 354px;
+  }
+
+  #teams {
+    // background-color: antiquewhite;
+    height: 1700px;
+    top: 2760px;
+  }
+
+  .fitur-click {
+    width: 100%;
+  }
+
+  #maps {
+    // background-color: rgb(255, 174, 174);
+    top: 5198px;
+    height: 1300px;
+  }
 }
 
 // --------------------------- End About Page
