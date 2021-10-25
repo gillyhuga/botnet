@@ -17070,18 +17070,6 @@ nav {
   overflow: hidden;
 }
 
-.bg-decoration__svg-2 {
-  position: absolute;
-  top: 0;
-  left: 110%;
-  transform: translateX(-50%);
-  width: 134%;
-  min-width: 1280px;
-  max-width: 1920px;
-  height: auto;
-  z-index: -99;
-}
-
 .card-kegiatan {
   height: 275px;
   border-radius: 10px;
