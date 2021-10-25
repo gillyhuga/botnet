@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Botnet - Kegiatan</title>
     <link href="/css/min.css" rel="stylesheet">
+    <script src="/js/app.js"></script>
 </head>
 
 <body>
@@ -99,19 +100,37 @@
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card h-100 card-kegiatan">
-                      <img src="https://placeimg.com/640/200/tech/1" alt="Card image cap" class="card-img-top img">
-                      <div class="card-body">
-                          <h5>Detail Kegiatan</h5>
-                          <p class="card-text">4 Sep 2021</p>
+                    <a href="#" id="pop">
+                      <div class="card h-100 card-kegiatan">
+                        <img src="https://placeimg.com/640/200/tech/1" alt="Card image cap" class="card-img-top img">
+                        <div class="card-body">
+                            <h5>Detail Kegiatan</h5>
+                            <p class="card-text">4 Sep 2021</p>
+                        </div>
                       </div>
-                    </div>
+                    </a>
+                    
                   </div>
                 
               </div>
           </div>
 
-           
+          <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+                </div>
+                <div class="modal-body">
+                  <img src="" id="imagepreview" style="width: 400px; height: 264px;" >
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <figure class="bg-decoration-circle-left z-index-1" aria-hidden="true">
             <img  class="img-fluid"  src="assets/backgroud/circle.svg" alt="bg">
@@ -122,7 +141,7 @@
         </figure>
         
     </section>
-    <script src="/js/min.js"></script>
+    
 </body>
 
 </html>
