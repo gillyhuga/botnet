@@ -17086,6 +17086,23 @@ nav {
   background-color: #0062ff;
 }
 
+.nav-of-head {
+  width: 700px;
+}
+
+.nav-of-w {
+  width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-of-w {
+    width: 100%;
+  }
+
+  .nav-of-head {
+    width: 80%;
+  }
+}
 .image-banner {
   border-radius: 20px;
 }

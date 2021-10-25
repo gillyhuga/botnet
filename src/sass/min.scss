@@ -118,6 +118,24 @@ nav {
   background-color: $primary;
 }
 
+.nav-of-head {
+  width: 700px;
+}
+
+.nav-of-w {
+  width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-of-w {
+    width: 100%;
+  }
+
+  .nav-of-head {
+    width: 80%;
+  }
+}
+
 // --------------------------- End Kegiatan Page
 
 // --------------------------- Detail Artikel Page
@@ -148,4 +166,3 @@ nav {
 }
 
 // --------------------------- End Detail Artikel Page
-  
