@@ -77,7 +77,7 @@ nav {
 
 // --------------------------- End About Page
 
-//Kegiatan Page
+// --------------------------- Kegiatan Page
 
 .bg-decoration-circle-left {
   position: absolute;
@@ -102,18 +102,6 @@ nav {
   overflow: hidden;
 }
 
-.bg-decoration__svg-2 {
-  position: absolute;
-  top: 0;
-  left: 110%;
-  transform: translateX(-50%);
-  width: 134%;
-  min-width: 1280px;
-  max-width: 1920px;
-  height: auto;
-  z-index: -99;
-}
-
 .card-kegiatan {
   height: 275px;
   border-radius: 10px;
@@ -129,3 +117,35 @@ nav {
   color: $main;
   background-color: $primary;
 }
+
+// --------------------------- End Kegiatan Page
+
+// --------------------------- Detail Artikel Page
+
+.image-banner {
+  border-radius: 20px;
+}
+
+.floating-share {
+  z-index: 99;
+  position: fixed;
+  display: block;
+  width: 60px;
+  margin-top: 150px;
+}
+
+.floating-share ul {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0rem
+}
+
+.floating-share li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative
+}
+
+// --------------------------- End Detail Artikel Page
+  
