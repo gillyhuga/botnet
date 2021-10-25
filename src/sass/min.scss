@@ -77,7 +77,7 @@ nav {
 
 // --------------------------- End About Page
 
-//Kegiatan Page
+// --------------------------- Kegiatan Page
 
 .bg-decoration-circle-left {
   position: absolute;
@@ -118,6 +118,34 @@ nav {
   background-color: $primary;
 }
 
+// --------------------------- End Kegiatan Page
 
+// --------------------------- Detail Artikel Page
 
+.image-banner {
+  border-radius: 20px;
+}
+
+.floating-share {
+  z-index: 99;
+  position: fixed;
+  display: block;
+  width: 60px;
+  margin-top: 150px;
+}
+
+.floating-share ul {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0rem
+}
+
+.floating-share li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative
+}
+
+// --------------------------- End Detail Artikel Page
   
