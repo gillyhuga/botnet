@@ -17094,6 +17094,12 @@ nav {
   width: 320px;
 }
 
+.nav-fitur {
+  width: 750px;
+  border-radius: 30px;
+  background-color: #F7FAFF;
+}
+
 @media screen and (max-width: 768px) {
   .nav-of-w {
     width: 100%;
@@ -17101,6 +17107,12 @@ nav {
 
   .nav-of-head {
     width: 100%;
+  }
+
+  .nav-fitur {
+    width: 100%;
+    border-radius: 30px;
+    padding: 6px;
   }
 }
 .image-banner {
