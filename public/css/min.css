@@ -17025,7 +17025,6 @@ nav {
   padding-right: 10px;
 }
 
-<<<<<<< HEAD
 .bg-about-circle-left {
   position: absolute;
   width: auto;
@@ -17049,7 +17048,69 @@ nav {
 }
 
 .bg-decoration-circle-left {
-=======
+  position: absolute;
+  top: 20px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
+
+.bg-decoration-circle-right {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: rotate(180deg);
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
+
+.card-kegiatan {
+  height: 275px;
+  border-radius: 10px;
+}
+
+.card-kegiatan .img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #0062ff;
+}
+
+.image-banner {
+  border-radius: 20px;
+}
+
+.floating-share {
+  z-index: 99;
+  position: fixed;
+  display: block;
+  width: 60px;
+  margin-top: 150px;
+}
+
+.floating-share ul {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.floating-share li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
 .start-content {
   padding: 5% 6% 16% 7%;
   margin-right: 5px;
@@ -17104,98 +17165,4 @@ nav {
 .article-desc {
   padding: 35px;
   text-align: left;
-}
-
-.bg-decoration {
->>>>>>> 23d427fe7dc49a2c3a44961df097a6787cc3de85
-  position: absolute;
-  top: 20px;
-  left: 0;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  z-index: -99;
-  overflow: hidden;
-}
-
-.bg-decoration-circle-right {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  transform: rotate(180deg);
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  z-index: -99;
-  overflow: hidden;
-}
-
-.card-kegiatan {
-  height: 275px;
-  border-radius: 10px;
-}
-
-.card-kegiatan .img {
-  height: 200px;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.btn-search {
-  color: #ffffff;
-  background-color: #0062ff;
-}
-
-.nav-of-head {
-  width: 700px;
-}
-
-.nav-of-w {
-  width: 320px;
-}
-
-.nav-fitur {
-  width: 750px;
-  border-radius: 30px;
-  background-color: #F7FAFF;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-of-w {
-    width: 100%;
-  }
-
-  .nav-of-head {
-    width: 100%;
-  }
-
-  .nav-fitur {
-    width: 100%;
-    border-radius: 30px;
-    padding: 6px;
-  }
-}
-.image-banner {
-  border-radius: 20px;
-}
-
-.floating-share {
-  z-index: 99;
-  position: fixed;
-  display: block;
-  width: 60px;
-  margin-top: 150px;
-}
-
-.floating-share ul {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0rem;
-}
-
-.floating-share li {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: relative;
 }
