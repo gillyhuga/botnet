@@ -8,7 +8,7 @@ $secondary: #f7faff;
 $main: #ffffff;
 $font-main: #25546f;
 $font-subtitle: #92a9b7;
-$font-sosmed: #85b6ff;
+$font-fitur: #F7FAFF;
 
 @font-face {
   font-family: Poppins;
@@ -75,6 +75,17 @@ nav {
   opacity: 0.3;
 }
 
+.nav-child {
+  background-color: #F7FAFF;
+  width: 775px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
 // --------------------------- End About Page
 
 // --------------------------- Kegiatan Page
@@ -118,36 +129,6 @@ nav {
   background-color: $primary;
 }
 
-.nav-of-head {
-  width: 700px;
-}
-
-.nav-of-w {
-  width: 320px;
-}
-
-.nav-fitur {
-  width: 750px;
-  border-radius: 30px;
-  background-color: #F7FAFF;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-of-w {
-    width: 100%;
-  }
-
-  .nav-of-head {
-    width: 100%;
-
-  }
-
-  .nav-fitur {
-    width: 100%;
-    border-radius: 30px;
-    padding: 6px;
-  }
-}
 
 // --------------------------- End Kegiatan Page
 
