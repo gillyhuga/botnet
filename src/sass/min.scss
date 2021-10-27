@@ -52,28 +52,56 @@ nav {
 
 // --------------------------- About Page
 
-.bg-about-circle-left {
-  position: absolute;
-  width: auto;
-  height: 384.57px;
-  top: 164px;
-}
+// .bg-about-circle-left {
+//   position: absolute;
+//   height: 384.57px;
+//   top: 250px;
+//   z-index: -99;
+//   overflow: hidden;
+// }
 
-.bg-about-circle-right {
-  position: absolute;
-  width: auto;
-  height: 300px;
-  right: 0%;
-  top: 36px;
-}
+// .bg-about-circle-right {
+//   position: absolute;
+//   width: auto;
+//   height: 300px;
+//   right: auto;
+//   top: 100px;
+//   z-index: -99;
+//   overflow: hidden;
+// }
 
-.bg-titik-left {
-  position: absolute;
-  top: 84.87%;
-  bottom: 3.37%;
+// .bg-titik-left {
+//   position: absolute;
+//   top: 84.87%;
+//   bottom: 3.37%;
 
-  opacity: 0.3;
-}
+//   opacity: 0.3;
+//   z-index: -99;
+//   overflow: hidden;
+// }
+
+// .bg-sec-two {
+//   position: absolute;
+//   left: 83.82%;
+//   right: 7.04%;
+//   top: 16.91%;
+//   bottom: 81.27%;
+//   top: 110.91%;
+//   opacity: 0.3;
+//   z-index: -99;
+//   overflow: hidden;
+// }
+
+// .bg-sec-three {
+//   position: absolute;
+//   left: 45.82%;
+//   right: 7.04%;
+//   top: 16.91%;
+//   bottom: 81.27%;
+//   top: 168.91%;
+//   z-index: -99;
+//   overflow: hidden;
+// }
 
 .nav-head {
   width: 42%;
@@ -92,14 +120,19 @@ nav {
     width: 100%;
   }
 
-  .zzz {
+  .w-items {
     width: 100%;
+  }
+
+  .bg-about-circle-right {
+    right: -20%;
+
   }
 }
 
 @media screen and (max-width: 1024px) {
   .nav-head {
-    width: 80%;
+    width: 100%;
   }
 
   .w-items {
@@ -107,12 +140,12 @@ nav {
   }
 }
 
-@media screen and (max-width: 1234px) {
+@media screen and (min: 886px) and (max-width: 1234px) {
   .tes {
     width: 100%;
   }
 
-  .zzz {
+  .w-items {
     width: 100%;
   }
 }
