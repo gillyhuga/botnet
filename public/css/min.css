@@ -16997,7 +16997,17 @@ p {
   color: #92a9b7;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   color: #25546f;
 }
 
@@ -17015,24 +17025,26 @@ nav {
   padding-right: 10px;
 }
 
-.floating-share {
-  position: fixed;
-  display: block;
-  width: 60px;
-  margin-top: 150px;
+.bg-about-circle-left {
+  position: absolute;
+  width: auto;
+  height: 384.57px;
+  top: 164px;
 }
 
-.floating-share ul {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0rem;
+.bg-about-circle-right {
+  position: absolute;
+  width: auto;
+  height: 300px;
+  right: 0%;
+  top: 36px;
 }
 
-.floating-share li {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: relative;
+.bg-titik-left {
+  position: absolute;
+  top: 84.87%;
+  bottom: 3.37%;
+  opacity: 0.3;
 }
 
 .bg-decoration-circle-left {
@@ -17058,18 +17070,6 @@ nav {
   overflow: hidden;
 }
 
-.bg-decoration__svg-2 {
-  position: absolute;
-  top: 0;
-  left: 110%;
-  transform: translateX(-50%);
-  width: 134%;
-  min-width: 1280px;
-  max-width: 1920px;
-  height: auto;
-  z-index: -99;
-}
-
 .card-kegiatan {
   height: 275px;
   border-radius: 10px;
@@ -17084,4 +17084,85 @@ nav {
 .btn-search {
   color: #ffffff;
   background-color: #0062ff;
+}
+
+.image-banner {
+  border-radius: 20px;
+}
+
+.floating-share {
+  z-index: 99;
+  position: fixed;
+  display: block;
+  width: 60px;
+  margin-top: 150px;
+}
+
+.floating-share ul {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.floating-share li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.start-content {
+  padding: 5% 6% 16% 7%;
+  margin-right: 5px;
+}
+
+.start-content p {
+  font-size: 24px;
+}
+
+.start-content-img {
+  text-align: center;
+}
+
+.start-socialmedia {
+  color: #0062FF;
+  width: 56px;
+  height: 56px;
+}
+
+.home-elements {
+  position: absolute;
+  z-index: 0;
+}
+
+.second-content {
+  padding: 10% 6% 16% 9%;
+}
+
+.second-content p {
+  font-size: 22px;
+}
+
+.gallery-img {
+  border-radius: 10px;
+  width: -webkit-fill-available;
+}
+
+.rowakhir {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #f6f8fd;
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+  top: -50px;
+}
+
+.article-box {
+  border-radius: 10px;
+  height: 100%;
+}
+
+.article-desc {
+  padding: 35px;
+  text-align: left;
 }

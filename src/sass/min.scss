@@ -3,12 +3,12 @@
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
-
 $primary: #0062ff;
 $secondary: #f7faff;
 $main: #ffffff;
 $font-main: #25546f;
 $font-subtitle: #92a9b7;
+$font-fitur: #F7FAFF;
 
 @font-face {
   font-family: Poppins;
@@ -24,10 +24,15 @@ body {
 }
 
 p {
-  color: $font-subtitle; 
+  color: $font-subtitle;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $font-main;
 }
 
@@ -45,8 +50,89 @@ nav {
   padding-right: 10px;
 }
 
+// --------------------------- About Page
+
+.bg-about-circle-left {
+  position: absolute;
+  width: auto;
+  height: 384.57px;
+  top: 164px;
+}
+
+.bg-about-circle-right {
+  position: absolute;
+  width: auto;
+  height: 300px;
+  right: 0%;
+  top: 36px;
+}
+
+.bg-titik-left {
+  position: absolute;
+  top: 84.87%;
+  bottom: 3.37%;
+
+  opacity: 0.3;
+}
+
+
+
+
+
+// --------------------------- End About Page
+
+// --------------------------- Kegiatan Page
+
+.bg-decoration-circle-left {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
+
+.bg-decoration-circle-right {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: rotate(180deg);
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
+
+.card-kegiatan {
+  height: 275px;
+  border-radius: 10px;
+}
+
+.card-kegiatan .img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-search {
+  color: $main;
+  background-color: $primary;
+}
+
+
+// --------------------------- End Kegiatan Page
+
+// --------------------------- Detail Artikel Page
+
+.image-banner {
+  border-radius: 20px;
+}
 
 .floating-share {
+  z-index: 99;
   position: fixed;
   display: block;
   width: 60px;
@@ -66,59 +152,62 @@ nav {
   position: relative
 }
 
+// --------------------------- End Detail Artikel Page
 
 
-
-//Kegiatan Page
-
-.bg-decoration-circle-left {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  z-index: -99;
-  overflow: hidden;
+// --------------------------- Home Page
+.start-content {
+  padding: 5% 6% 16% 7%;
+  margin-right: 5px;
 }
 
-
-.bg-decoration-circle-right {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  transform: rotate(180deg);
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  z-index: -99;
-  overflow: hidden;
+.start-content p {
+  font-size: 24px;
 }
 
-.bg-decoration__svg-2 {
-  position: absolute;
-  top: 0;
-  left: 110%;
-  transform: translateX(-50%);
-  width: 134%;
-  min-width: 1280px;
-  max-width: 1920px;
-  height: auto;
-  z-index: -99;
+.start-content-img {
+  text-align: center;
 }
 
-.card-kegiatan{
-  height: 275px;
+.start-socialmedia {
+  color: #0062FF;
+  width: 56px;
+  height: 56px;
+}
+
+.home-elements {
+  position: absolute;
+  z-index: 0;
+}
+
+.second-content {
+  padding: 10% 6% 16% 9%;
+}
+
+.second-content p {
+  font-size: 22px;
+}
+
+.gallery-img {
   border-radius: 10px;
+  width: -webkit-fill-available;
 }
 
-.card-kegiatan .img{
-  height: 200px;
-  width: 100%;
+.rowakhir {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #f6f8fd;
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+  top: -50px;
+}
+
+.article-box {
   border-radius: 10px;
+  height: 100%;
 }
 
-.btn-search{
-  color: $main;
-  background-color: $primary
+.article-desc {
+  padding: 35px;
+  text-align: left;
 }
