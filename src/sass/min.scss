@@ -75,7 +75,47 @@ nav {
   opacity: 0.3;
 }
 
+.nav-head {
+  width: 42%;
+}
 
+.w-items {
+  width: 150px;
+}
+
+.fitur {
+  background-color: $font-fitur;
+}
+
+@media screen and (max-width: 768px) {
+  .tes {
+    width: 100%;
+  }
+
+  .zzz {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-head {
+    width: 80%;
+  }
+
+  .w-items {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1234px) {
+  .tes {
+    width: 100%;
+  }
+
+  .zzz {
+    width: 100%;
+  }
+}
 
 
 
@@ -165,9 +205,9 @@ nav {
   font-size: 24px;
 }
 
-.start-content-img {
-  text-align: center;
-}
+// .start-content-img {
+//   text-align: center;
+// }
 
 .start-socialmedia {
   color: #0062FF;

@@ -17047,6 +17047,45 @@ nav {
   opacity: 0.3;
 }
 
+.nav-head {
+  width: 42%;
+}
+
+.w-items {
+  width: 150px;
+}
+
+.fitur {
+  background-color: #F7FAFF;
+}
+
+@media screen and (max-width: 768px) {
+  .tes {
+    width: 100%;
+  }
+
+  .zzz {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav-head {
+    width: 80%;
+  }
+
+  .w-items {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1234px) {
+  .tes {
+    width: 100%;
+  }
+
+  .zzz {
+    width: 100%;
+  }
+}
 .bg-decoration-circle-left {
   position: absolute;
   top: 20px;
@@ -17118,10 +17157,6 @@ nav {
 
 .start-content p {
   font-size: 24px;
-}
-
-.start-content-img {
-  text-align: center;
 }
 
 .start-socialmedia {
