@@ -1,11 +1,5 @@
 # Botnet Website
 
-### Note :
-```text
-Jangan rubah file css dan js dalam folder public. 
-Jika ingin custom rubah pada file scss dan js pada folder src.
-```
-
 ## Deploy Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6198c783-4460-4b90-96e7-0fd0285445b6/deploy-status)](https://app.netlify.com/sites/botnet-web/deploys)
 
@@ -30,5 +24,7 @@ npm install -g live-server
 5. Ketik command, untuk menjalankan live server
 ```console
 live-server public
+``` 
+```console
 live-server public --port=8090
 ``` 
