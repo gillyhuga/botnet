@@ -17060,9 +17060,12 @@ nav {
   border-radius: 10px;
 }
 
+.card-transparent {
+  background-color: transparent;
+}
+
 .card-kegiatan .img {
   height: 200px;
-  width: 100%;
   border-radius: 10px;
 }
 
