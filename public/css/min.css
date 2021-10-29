@@ -17012,12 +17012,15 @@ h6,
 }
 
 nav {
-  height: 75px;
   padding-left: 5%;
   padding-right: 5%;
   font-weight: 800;
   color: #25546f;
   background-color: #ffffff;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
 }
 
 .nav-link {
