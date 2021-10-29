@@ -50,6 +50,14 @@ nav {
   padding-right: 10px;
 }
 
+// .hero {
+//   display: block;
+//   box-sizing: border-box;
+//   transform: rotate(20deg);
+//   background-color: #dc3d4b;
+//   clip-path: ellipse(75% 100% at 50% 0%);
+//   }
+
 // --------------------------- About Page
 
 // .bg-about-circle-left {
@@ -103,51 +111,16 @@ nav {
 //   overflow: hidden;
 // }
 
-.nav-head {
-  width: 42%;
-}
+// .nav-head {
+//   width: 42%;
+// }
 
-.w-items {
-  width: 150px;
-}
+// .w-items {
+//   width: 150px;
+// }
 
-.fitur {
-  background-color: $font-fitur;
-}
-
-@media screen and (max-width: 768px) {
-  .tes {
-    width: 100%;
-  }
-
-  .w-items {
-    width: 100%;
-  }
-
-  .bg-about-circle-right {
-    right: -20%;
-
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .nav-head {
-    width: 100%;
-  }
-
-  .w-items {
-    width: 150px;
-  }
-}
-
-@media screen and (min: 886px) and (max-width: 1234px) {
-  .tes {
-    width: 100%;
-  }
-
-  .w-items {
-    width: 100%;
-  }
+.bg-menu {
+  background-color: $secondary;
 }
 
 // --------------------------- End About Page
@@ -248,7 +221,7 @@ nav {
 
 .home-elements {
   position: absolute;
-  z-index: 0;
+  z-index: -99;
 }
 
 .second-content {
