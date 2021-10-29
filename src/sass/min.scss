@@ -39,12 +39,15 @@ h6 {
 }
 
 nav {
-  height: 75px;
   padding-left: 5%;
   padding-right: 5%;
   font-weight: 800;
   color: $font-main;
   background-color: $main;
+}
+
+.navbar-collapse {
+  flex-grow: 0  !important;
 }
 
 .nav-link {
