@@ -17025,28 +17025,49 @@ nav {
   padding-right: 10px;
 }
 
-.bg-about-circle-left {
-  position: absolute;
-  width: auto;
-  height: 384.57px;
-  top: 164px;
+.nav-head {
+  width: 42%;
 }
 
-.bg-about-circle-right {
-  position: absolute;
-  width: auto;
-  height: 300px;
-  right: 0%;
-  top: 36px;
+.w-items {
+  width: 150px;
 }
 
-.bg-titik-left {
-  position: absolute;
-  top: 84.87%;
-  bottom: 3.37%;
-  opacity: 0.3;
+.fitur {
+  background-color: #F7FAFF;
 }
 
+@media screen and (max-width: 768px) {
+  .tes {
+    width: 100%;
+  }
+
+  .w-items {
+    width: 100%;
+  }
+
+  .bg-about-circle-right {
+    right: -20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav-head {
+    width: 100%;
+  }
+
+  .w-items {
+    width: 150px;
+  }
+}
+@media screen and (min: 886px) and (max-width: 1234px) {
+  .tes {
+    width: 100%;
+  }
+
+  .w-items {
+    width: 100%;
+  }
+}
 .bg-decoration-circle-left {
   position: absolute;
   top: 20px;
@@ -17118,10 +17139,6 @@ nav {
 
 .start-content p {
   font-size: 24px;
-}
-
-.start-content-img {
-  text-align: center;
 }
 
 .start-socialmedia {

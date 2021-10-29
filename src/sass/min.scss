@@ -52,30 +52,103 @@ nav {
 
 // --------------------------- About Page
 
-.bg-about-circle-left {
-  position: absolute;
-  width: auto;
-  height: 384.57px;
-  top: 164px;
+// .bg-about-circle-left {
+//   position: absolute;
+//   width: 384.57px;
+//   height: 384.57px;
+//   left: -38.82px;
+//   top: 696.84px;
+
+//   transform: rotate(-56.09deg);
+// }
+
+// .bg-about-circle-right {
+//   position: absolute;
+//   width: 300px;
+//   height: 300px;
+//   left: 1162px;
+//   top: 234px;
+// }
+
+// .bg-titik-left {
+//   position: absolute;
+//   top: 84.87%;
+//   bottom: 3.37%;
+
+//   opacity: 0.3;
+//   z-index: -99;
+//   overflow: hidden;
+// }
+
+// .bg-sec-two {
+//   position: absolute;
+//   left: 83.82%;
+//   right: 7.04%;
+//   top: 16.91%;
+//   bottom: 81.27%;
+//   top: 110.91%;
+//   opacity: 0.3;
+//   z-index: -99;
+//   overflow: hidden;
+// }
+
+// .bg-sec-three {
+//   position: absolute;
+//   left: 45.82%;
+//   right: 7.04%;
+//   top: 16.91%;
+//   bottom: 81.27%;
+//   top: 168.91%;
+//   z-index: -99;
+//   overflow: hidden;
+// }
+
+.nav-head {
+  width: 42%;
 }
 
-.bg-about-circle-right {
-  position: absolute;
-  width: auto;
-  height: 300px;
-  right: 0%;
-  top: 36px;
+.w-items {
+  width: 150px;
 }
 
-.bg-titik-left {
-  position: absolute;
-  top: 84.87%;
-  bottom: 3.37%;
-
-  opacity: 0.3;
+.fitur {
+  background-color: $font-fitur;
 }
 
+@media screen and (max-width: 768px) {
+  .tes {
+    width: 100%;
+  }
 
+  .w-items {
+    width: 100%;
+  }
+
+  .bg-about-circle-right {
+    right: -20%;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-head {
+    width: 100%;
+  }
+
+  .w-items {
+    width: 150px;
+  }
+}
+
+@media screen and (min: 886px) and (max-width: 1234px) {
+  .tes {
+    width: 100%;
+  }
+
+  .w-items {
+    width: 100%;
+  }
+}
 
 
 
@@ -165,9 +238,9 @@ nav {
   font-size: 24px;
 }
 
-.start-content-img {
-  text-align: center;
-}
+// .start-content-img {
+//   text-align: center;
+// }
 
 .start-socialmedia {
   color: #0062FF;
