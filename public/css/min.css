@@ -17025,49 +17025,10 @@ nav {
   padding-right: 10px;
 }
 
-.nav-head {
-  width: 42%;
+.bg-menu {
+  background-color: #f7faff;
 }
 
-.w-items {
-  width: 150px;
-}
-
-.fitur {
-  background-color: #F7FAFF;
-}
-
-@media screen and (max-width: 768px) {
-  .tes {
-    width: 100%;
-  }
-
-  .w-items {
-    width: 100%;
-  }
-
-  .bg-about-circle-right {
-    right: -20%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .nav-head {
-    width: 100%;
-  }
-
-  .w-items {
-    width: 150px;
-  }
-}
-@media screen and (min: 886px) and (max-width: 1234px) {
-  .tes {
-    width: 100%;
-  }
-
-  .w-items {
-    width: 100%;
-  }
-}
 .bg-decoration-circle-left {
   position: absolute;
   top: 20px;
@@ -17149,7 +17110,7 @@ nav {
 
 .home-elements {
   position: absolute;
-  z-index: 0;
+  z-index: -99;
 }
 
 .second-content {
